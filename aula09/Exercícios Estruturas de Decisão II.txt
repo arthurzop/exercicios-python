@@ -1,0 +1,144 @@
+********** ********** ** *******
+Exercícios Estruturas de Decisão
+********** ********** ** *******
+Entregar todos os códigos em:
+Canal FPOO > Arquivos > Entregas > Extras Estruturas de Decisão
+
+1. Desenvolva um programa que pergunte a velocidade do carro de um usuário. 
+Se a velocidade ultrapassar 80km/h, exiba uma mensagem dizendo que o usuário foi multado. 
+Nesse caso, exiba o valor da multa, cobrando R$ 50,00 por cada km acima de 80 km/h.
+Exemplo: Digite a velocidade em Km/h: 85
+Limite = 80Km/h
+Excedeu 5Km/h
+multa = 5Km/h * R$ 50,00
+Valor da multa: R$ 250,00
+Salvar o código como: multa.py
+
+2. Desenvolva um programa que leia três números e que imprima:
+   2.1. o maior,
+   2.2. o menor,
+   2.3. a soma,
+   2.4. a média.
+Exemplo:
+num1 = 5	num2 = 3	num3 = 10
+**********
+maior = 10
+menor = 3
+soma = 18
+media = 6
+Salvar o código como: maior_menor.py
+
+3. Desenvolva um programa que pergunte a distância que um passageiro deseja percorrer em km.
+Calcule o preço da passagem, cobrando R$ 0,50 por km para viagens de até de 200 km, e R$
+0,45 para viagens mais longas.
+Salvar o código como: viagens.py
+
+4. Uma empresa, que presta serviço à companhia de energia elétrica do estado, necessita de um programa que auxilie os seus eletricistas no cálculo das principais grandezas da Eletricidade
+que são Tensão, Resistência e Corrente. Sabe-se que:
+U = R * I, 
+onde, 
+U é a Tensão      (em V), 
+R é a Resistência (em Ώ) e,
+I é a Corrente    (em A).
+
+Você foi contratado(a) pela empresa para atender a essa solicitação.
+Construa um programa que apresente o seguinte menu:
+
+******************************
+CÁLCULO DE GRANDEZAS ELÉTRICAS
+******************************
+1. Tensão (em Volt)
+2. Resistência (em Ohm)
+3. Corrente (em Ampére)
+4. Sair do programa
+******************************
+Qual grandeza deseja calcular?
+
+Em seguida, o programa deve solicitar que o eletricista informe o valor das outras duas grandezas para realizar o cálculo.
+
+Quando o eletricista escolher:
+1. Tensão, o programa deve solicitar que ele informe os valores da Resistência e da Corrente.
+   Utilizar a fórmula: U = R * I
+
+2. Resistência, o programa deve solicitar que ele informe os valores da Tensão e da Corrente.
+   Utilizar a fórmula: R = U / I
+
+3. Corrente, o programa deve solicitar que ele informe os valores da Tensão e da Resistência.
+   Utilizar a fórmula: I = U / R
+
+Por fim, o programa deve calcular e apresentar o valor encontrado para a grandeza escolhida.
+Obs.: Qualquer opção diferente das apresentadas no menu (1 a 4) deverão ser informadas ao usuário como 'Opção inválida!'
+Salvar o código como: grandezas.py
+
+4. Suponha que o professor Atila possua dois logins na rede do SENAI-SP. 
+Construa um programa que valide o acesso do professor à rede. 
+Caso o par usuário/senha informado esteja correto, o programa deve imprimir a mensagem “Seja bem vindo!”.
+Caso contrário, “Usuário e senha não conferem”.
+Dados dos dois logins:
+login 1			login 2
+usuário: atila		usuário: olivi
+senha: 12345		senha: 54321
+Salvar o código como: dois_logins.py
+
+5. Na última Black Friday, o gerente de uma loja de perfumes colocou todo o seu estoque em promoção, de acordo com a tabela a seguir:
+
+Código	Condição de Pagamento	Desconto (%)
+1 	À vista (em espécie) 	10
+2	Cartão de débito	5
+3	Cartão de crédito	3
+4	PIX			7.5
+
+Construa um programa que solicite ao operador do caixa o preço total da venda, bem como a forma de pagamento.
+Ao fim, o programa deve informar o valor final a ser pago.
+Salvar o código como: black_friday.py
+
+6. Desenvolva um programa que receba uma string e exiba a mesma na tela. Se o valor digitado for em branco exibir 'Dado inválido'
+Salvar o código como: validar_str.py
+
+7. Desenvolva um programa que receba um inteiro e exiba o mesmo na tela. Se o valor digitado for em branco exibir 'Dado inválido'
+Salvar o código como: validar_int.py
+
+8. Um posto está vendendo combustíveis com a seguinte tabela de descontos: 
+   Álcool:
+      até 20 litros, desconto de 3% por litro
+      acima de 20 litros, desconto de 5% por litro 
+   Gasolina:
+      até 20 litros, desconto de 4% por litro
+      acima de 20 litros, desconto de 6% por litro 
+
+O programa deverá ler o número de litros vendidos, o tipo de combustível codificado da seguinte forma: 
+   A - Álcool, 
+   G - Gasolina, 
+Calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 4,95 o preço do litro do álcool é R$ 2,89.
+Salvar o código como: desc_combustiveis.py
+
+9. Desenvolver um programa que leia cinco números e os exiba na tela.
+Salvar o código como: cinco_num.py
+
+10. Desenvolver um programa que calcule e exiba a tabuada de hum a dez de um número qualquer.
+    Exemplo:
+    ******************************
+    Informe o número da tabuada: 5
+    ******************************
+    1 x 5 = 5
+    2 x 5 = 10
+    3 x 5 = 15
+    4 x 5 = 20
+    5 x 5 = 25
+    6 x 5 = 30
+    7 x 5 = 35
+    8 x 5 = 40
+    9 x 5 = 45
+    10 x 5 = 50
+
+Salvar o código como: tabuada.py
+
+11. Desenvolver um programa que exiba números de 1 a 100.
+Salvar o código como: um_a_cem.py
+
+12. Desenvolva um programa para escrever a contagem regressiva do lançamento de um foguete. 
+O programa deve imprimir 10, 9, 8, …, 1, 0 e 'Ignição!' na tela.
+Salvar o código como: lancamento.py
+
+13. Desenvolva um programa que exiba somente os números pares de um a cem.
+Salvar o código como: somente_pares.py
